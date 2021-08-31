@@ -65,7 +65,14 @@
 
 <!-- INICIA HEADER CARRUSEL DE IMAGENES -->
 <section>
-    <div style="background-image: url('imagenes/header_poesia.jpg');" background-size:"cover";>
+
+<!--    <div style="background-image: url('imagenes/header_poesia.jpg');" width="100%;" height="auto;"> -->
+<picture>
+  <source srcset="imagenes/header_poesia.jpg" media="(max-width: 400px)">
+  <source srcset="imagenes/header_poesia.jpg">
+  <img src="imagenes/header_poesia.jpg" alt="Flowers" style="width:100%;">
+
+
       <div class="container">
         <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
           <div class="col-md-2 col-sm-12 ftco-animate">
@@ -77,7 +84,8 @@
           </div>
         </div>
       </div>
-    </div>
+</picture>
+  <!--  </div>  -->
 </section>
 
 
