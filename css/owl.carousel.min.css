@@ -16,12 +16,13 @@
           touch-action: auto;
   }
 
+/**
 .owl-carousel .owl-stage{
   position:relative;
   -ms-touch-action:pan-Y;
   touch-action:manipulation;
   -moz-backface-visibility:hidden
-  }
+  } */
 .owl-carousel .owl-stage:after{
   content:".";
   display:block;
