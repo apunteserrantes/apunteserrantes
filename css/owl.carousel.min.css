@@ -15,13 +15,14 @@
   -ms-touch-action: auto;
   touch-action: auto;
   }
-/**
+
 .owl-carousel .owl-stage{
   position:relative;
-  -ms-touch-action:pan-Y;
+  -ms-touch-action:auto;
   touch-action:manipulation;
   -moz-backface-visibility:hidden
-  } */
+  }
+
 .owl-carousel .owl-stage:after{
   content:".";
   display:block;
