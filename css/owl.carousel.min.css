@@ -10,6 +10,12 @@
 .owl-carousel{
   display:none;width:100%;z-index:1
   }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+      -ms-touch-action: auto;
+          touch-action: auto;
+  }
+
 .owl-carousel .owl-stage{
   position:relative;
   -ms-touch-action:pan-Y;
