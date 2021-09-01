@@ -11,13 +11,12 @@
   display:none;width:100%;z-index:1
   }
 
-/** agregado */
+/** agregado que repara problema en celular */
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
     -ms-touch-action: pan-y !important;
     touch-action: pan-y !important;
 }
-
-
+/** fin agregado */
 
 .owl-carousel .owl-stage{
   position:relative;
