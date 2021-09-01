@@ -465,7 +465,7 @@ pre {
    position: absolute;
    bottom: 20px;
    right: 20px;
-   background-color: black;
+   background-color: transparent;
    color: white;
    padding-left: 20px;
    padding-right: 20px;
