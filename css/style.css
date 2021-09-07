@@ -64,6 +64,17 @@ body {
   text-align: left;
   background-color: #fff; }
 
+/** mi footer */
+
+  footer{
+  	padding-top: 0px;
+  	background: url('imagenes/footer.jpg') center center;
+  	background-size: cover;
+  	background-color: #e59800;
+  	height: 250px; }
+
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -8228,8 +8239,9 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
-  background: #101315; }
+  padding: 0  0;
+  background: #101315;
+  background-size: cover;}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
