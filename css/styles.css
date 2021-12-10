@@ -13,6 +13,7 @@ color: gray;
   position: fixed;
   z-index: 10;
   width: 100%;
+  padding-bottom: 0px;
 }
 .my-nav .container-fluid{
   padding-left: 0px;
@@ -28,13 +29,68 @@ color: gray;
   color: #d4d7e2;
   padding-left: 2em;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
-  color: #fac564 !important;
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#fac564;
 }
+.navbar-toggler-icon{
+  padding-bottom:2.5em;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+  color: #fac564;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-collapse{
+  padding-bottom:8px;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: none;
+    border:none;
+    margin-left: 1em;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
 .w-100{
     filter: brightness(50%);
     width:100%;
 }
 .carousel-item{
   transition-duration:0.2s;
+}
+
+
+/***********************************/
+/*        For Small Devices        */
+/***********************************/
+@media (max-width: 991px) {
+ #navbarNavAltMarkup{
+	 margin-top: 0.5em;
+	 /*background-color:#102e50;*/
+	 background-color: rgba(0,0,0,0.8);
+	 padding-right: 0px;
+   padding-bottom:0px;
+ }
+ #navbarNavAltMarkup >li:hover{
+	 background-color: #1a4a81;
+	 border-bottom: none;
+ }
+.my-nav{
+/*  padding-bottom:0px; */
+}
+/* .navbar-nav > li > a {
+ 	color: yellow;
+ } */
+.nav-link a:hover{
+ border-bottom: hidden
+}
 }
