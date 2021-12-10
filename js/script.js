@@ -17,7 +17,7 @@ $(window).scroll(function(){
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();
     if(scroll < 300){
-        $('.nav-link').css('color', 'black');
+        $('.nav-link').css('color', '#d4d7e2');
     } else{
         $('.nav-link').css('color', '#d4dae2');
     }

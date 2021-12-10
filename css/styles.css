@@ -19,11 +19,16 @@ color: gray;
   padding-right: 0px;
 }
 .navbar{
+  background-color: rgba(0, 0, 0, 0.5);
   transition:2s;
 }
-.nav-link{
+.navbar-light .navbar-nav .nav-link{
   font-size: 1.2em;
   font-weight: 300;
+  color: #d4d7e2;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+  color: #fac564 !important;
 }
 .w-100{
     filter: brightness(50%);
