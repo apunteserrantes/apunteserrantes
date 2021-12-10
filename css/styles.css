@@ -1,0 +1,34 @@
+body{
+font-family: "Poppins", Arial, sans-serif;
+font-size: 15px;
+line-height: 1.8;
+font-weight: 300;
+color: gray;
+}
+
+/***********************************/
+/*          Navigation bar         */
+/***********************************/
+.my-nav{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+.my-nav .container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar{
+  transition:2s;
+}
+.nav-link{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.w-100{
+    filter: brightness(50%);
+    width:100%;
+}
+.carousel-item{
+  transition-duration:0.2s;
+}
