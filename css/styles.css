@@ -26,6 +26,7 @@ color: gray;
   font-size: 1.2em;
   font-weight: 300;
   color: #d4d7e2;
+  padding-left: 2em;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
   color: #fac564 !important;
