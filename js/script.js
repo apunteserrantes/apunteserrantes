@@ -9,14 +9,6 @@ $(document).ready(function() {
    });
 });
 /*--------------------------
-Menu "Hamburger" Icon Animations
----------------------------*/
-$(document).ready(function(){
-	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-		$(this).toggleClass('open');
-	});
-});
-/*--------------------------
       Calling Carousel
 ---------------------------*/
 var myCarousel = document.querySelector('#carouselExampleFade')
