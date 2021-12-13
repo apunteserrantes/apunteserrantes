@@ -25,3 +25,8 @@ $(window).scroll(function(){
         $('.navbar').css('background', '#000000');
     }
 });
+/*------------------
+  Gets current year in footer:
+--------------------*/
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
