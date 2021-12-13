@@ -61,9 +61,7 @@ body{
     height: 2px;
     background-color: #fff;
     margin-bottom: 8px;
-
 }
-
 /***********************************/
 /*             Carousel            */
 /***********************************/
@@ -77,26 +75,57 @@ body{
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: 20px; /* change width */
-    height: 8px; /* change height */
+    width: 2em; /* change width */
+    height: 0.5em; /* change height */
     padding: 2px;
-    margin-right: 2em;
-    margin-left: 2em;
+    margin-right: 0.8em;
+    margin-left: 0.8em;
     text-indent: -999px;
     cursor: pointer;
     background-color: lightgrey;
     background-clip: padding-box;
-    border: 0;
+    /*border: 0;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-bottom: 10px solid transparent; */
+    border: 2px solid #fac546;
     opacity: .5;
     transition: opacity .6s ease;
-    border-radius: 65%;// /* add border-radius */
+    border-radius: 20%;// /* add border-radius */
 }
 .carousel-indicators button.active{
     background-color: #fac564;
 }
-
+.subheading {
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 2em;
+    color: #fac564;
+}
+.carousel-caption h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.carousel-caption p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+}
+.poesia{
+    margin-left:20em;
+    margin-bottom: 3em;
+}
+.prosa{
+    margin-right:20em;
+    margin-bottom:3em;
+}
+.cuento{
+    margin-right:30%;
+    margin-bottom:10%;
+}
 /***********************************/
 /*        For Small Devices        */
 /***********************************/
@@ -121,4 +150,29 @@ body{
 .nav-link a:hover{
  border-bottom: hidden
 }
+}
+
+@media (max-width: 767px){
+  .subheading {
+      font-size: 1.5em;
+  }
+  .carousel-caption h1 {
+      font-size: 2em;
+  }
+  .carousel-caption p{
+      font-size: 1em;
+  }
+  .poesia{
+      margin-left:10em;
+      margin-bottom: 0em;
+  }
+  .prosa{
+      margin-right:10em;
+      margin-bottom:0em;
+  }
+  .cuento{
+      margin-right:10em;
+      margin-bottom:0;
+  }
+
 }
