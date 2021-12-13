@@ -97,7 +97,7 @@ body{
 }
 .subheading {
     font-family: "Nothing You Could Do", cursive;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #fac564;
 }
 .carousel-caption h1 {
@@ -126,9 +126,9 @@ body{
     margin-right:30%;
     margin-bottom:10%;
 }
-/***********************************/
-/*        For Small Devices        */
-/***********************************/
+/************************************/
+/*        For Medium Devices        */
+/************************************/
 @media (max-width: 991px) {
  #navbarNavAltMarkup{
 	 margin-top: 0.5em;
@@ -151,7 +151,9 @@ body{
  border-bottom: hidden
 }
 }
-
+/************************************/
+/*        For Small Devices         */
+/************************************/
 @media (max-width: 767px){
   .subheading {
       font-size: 1.5em;
@@ -174,5 +176,31 @@ body{
       margin-right:10em;
       margin-bottom:0;
   }
+}
 
+/************************************/
+/*      For Extra Small Devices     */
+/************************************/
+@media (max-width: 576px){
+  .subheading {
+      font-size: 1em;
+  }
+  .carousel-caption h1 {
+      font-size: 1.5em;
+  }
+  .carousel-caption p{
+      font-size: 0.8em;
+  }
+  .poesia{
+      margin-left:5em;
+      margin-bottom: -1em;
+  }
+  .prosa{
+      margin-right:5em;
+      margin-bottom:-1em;
+  }
+  .cuento{
+      margin-right:5em;
+      margin-bottom:-1em;
+  }
 }
