@@ -9,12 +9,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Bootstrap and Style CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/aos.css" rel="stylesheet">
 
 	</head>
 
@@ -27,9 +28,10 @@
   			<div class="container-fluid">
 					<button
 							 class="btn navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-							 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
-								data-target="#navbarsExampleDefault"
-								data-toggle="collapse">
+							 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+							 aria-expanded="false" aria-label="Toggle navigation"
+							 data-target="#navbarsExampleDefault"
+							 data-toggle="collapse">
 									<span class="line"></span>
 									<span class="line"></span>
 									<span class="line"></span>
@@ -47,7 +49,7 @@
   			</div>
 			</nav>
 			<!-- Carousel begins -->
-			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-aos-once="true">
 				<div class="carousel-indicators">
 				    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,7 +58,7 @@
 				<div class="carousel-inner">
 			    <div class="carousel-item active">
 			      <img src="img/header_poesia.jpg" class="d-block w-100" alt="Poesía">
-						<div class="carousel-caption d-sd-block poesia">
+						<div class="carousel-caption d-sd-block poesia" data-aos="fade-up" data-aos-duration="2000" >
         			<span class="subheading">Apuntes Errantes</span>
         			<h1>Poesía</h1>
 							<p>Andrea Gutiérrez Campos</p>
@@ -93,19 +95,29 @@
 		</header>
 
 		<!-- Section "Poesia" begins -->
-
 		<section class="heading-section">
 			<div class="container">
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Poesía</h2>
-            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-            <p class="mt-5">"La poesía, que lleva en sí misma la compensación perfecta de las miserias que soportamos"  - André Bréton</p>
+				<div class="row justify-content-center">
+          <div class="col-md-7 heading-section text-center" data-aos="zoom-in" data-aos-duration="2000">
+            <h2>Poesía</h2>
+						<div class="hr-section">
+						  <div class="hr-line"></div>
+						  <div class="hr-icon"><i class="fas fa-spa"></i></div>
+						  <div class="hr-line"></div>
+						</div>
+            <p>"La poesía, que lleva en sí misma la compensación perfecta de las miserias que soportamos"  - André Bréton</p>
+						<div class="hr-section">
+							<div class="hr-line"></div>
+							<div class="hr-icon"><i class="fas fa-spa"></i></div>
+							<div class="hr-line"></div>
+						</div>
           </div>
         </div>
 				<div class="row">
 			    <div class="col-md-4">
-			      <p>Column</p>
+						<div class="box a" data-aos="fade-in" data-aos-duration="1000">
+						<p>Column</p>
+						</div>
 			    </div>
 			    <div class="col-md-4">
 			      <p>Column</p>
@@ -137,6 +149,7 @@
 		<script src="https://kit.fontawesome.com/6c47a62b52.js" crossorigin="anonymous"></script>
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/aos.js"></script>
 		<script src="js/script.js"></script>
 
 	</body>

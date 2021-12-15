@@ -11,12 +11,45 @@ body{
  h1, h2{
    font-family:"Josefin Sans", Arial, sans-serif;
  }
-
 footer{
   background: url(../img/paper.jpg) no-repeat;
   background-size: cover;
   filter: brightness(70%);
 }
+/***********************************/
+/*         AOS Animations          */
+/***********************************/
+.aos-all {
+  width: 1000px;
+  max-width: 98%;
+  margin: 10vh auto 0 auto;
+}
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 300px;
+  padding: 20px;
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #1da4e2;
+  line-height: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 50%;
+  }
+}
+
 /***********************************/
 /*          Navigation bar         */
 /***********************************/
@@ -77,16 +110,13 @@ footer{
     filter: brightness(50%);
     width:100%;
 }
-.carousel-item{
-  transition-duration:0.2s;
-}
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: 2em; /* change width */
-    height: 0.5em; /* change height */
+    width: 3em; /* change width */
+    height: 0.3em; /* change height */
     padding: 2px;
-    margin-right: 0.8em;
+    margin-right: 0.2em;
     margin-left: 0.8em;
     text-indent: -999px;
     cursor: pointer;
@@ -98,7 +128,7 @@ footer{
     border: 2px solid #fac546;
     opacity: .5;
     transition: opacity .6s ease;
-    border-radius: 20%;// /* add border-radius */
+    border-radius: 10%;// /* add border-radius */
 }
 .carousel-indicators button.active{
     background-color: #fac564;
@@ -135,6 +165,17 @@ footer{
     margin-bottom:10%;
 }
 
+.carousel-item {
+    transition: transform 4s ease-in-out;
+  }
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 4s;
+  }
+
+/************************************/
+/*        Heading Sections          */
+/************************************/
 
 .heading-section h2 {
     color:white;
@@ -144,6 +185,24 @@ footer{
     text-transform: uppercase;
     margin-top:3em;
 }
+.heading-section p{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.hr-section{
+  display: flex;
+}
+  .hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #8d5d05;;
+  }
+  .hr-icon {
+    position: relative;
+    top: 3px;
+    color: #eec170;;
+  }
 
 
 /************************************/

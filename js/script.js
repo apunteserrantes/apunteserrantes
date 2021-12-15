@@ -8,12 +8,19 @@ $(document).ready(function() {
       // }
    });
 });
+
+/*--------------------------
+      Calling AOS Animate
+---------------------------*/
+AOS.init({
+  easing: 'ease-in-out-sine'
+});
+
 /*--------------------------
       Calling Carousel
 ---------------------------*/
 var myCarousel = document.querySelector('#carouselExampleFade')
 var carousel = new bootstrap.Carousel(carouselExampleFade);
-
 /*--------------------------
   Shifting Navbar color when scrolling
 ---------------------------*/
@@ -28,5 +35,4 @@ $(window).scroll(function(){
 /*------------------
   Gets current year in footer:
 --------------------*/
-
 document.getElementById("year").innerHTML = new Date().getFullYear();
