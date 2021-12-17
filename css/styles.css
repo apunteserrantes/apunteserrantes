@@ -152,15 +152,15 @@ footer{
     font-weight: 300;
     color: white;
 }
-.poesia{
+.carousel-poesia{
     margin-left:20em;
     margin-bottom: 3em;
 }
-.prosa{
+.carousel-prosa{
     margin-right:20em;
     margin-bottom:3em;
 }
-.cuento{
+.carousel-cuento{
     margin-right:30%;
     margin-bottom:10%;
 }
@@ -192,17 +192,61 @@ footer{
 .hr-section{
   display: flex;
 }
-  .hr-line {
+.hr-line {
     width: 100%;
     position: relative;
     margin: 15px;
     border-bottom: 1px solid #8d5d05;;
-  }
-  .hr-icon {
+}
+.hr-icon {
     position: relative;
     top: 3px;
     color: #eec170;;
-  }
+}
+.bottom-icon{
+  transform: rotate(180deg);
+}
+.section{
+  margin-top: 4em;
+}
+/* hover effect on Section Images */
+.section img{
+  transition: transform 400ms, filter 400ms;
+  filter: sepia(100%);
+}
+.section img:hover{
+  transform:scale(1.05);
+  filter: sepia(0%);
+}
+.card-title{
+  margin-top: 1.2em;
+  font-family: "Josefin Sans", Arial, sans-serif;
+}
+.card-title a{
+  text-decoration: none;
+  color: #fac564;
+  transition: 400ms;
+
+}
+.card-title a:hover{
+  color:#f8a91a;
+  font-size: 105%
+}
+.section-poesia .card{
+  background-color: transparent;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.section-poesia .card-title{
+  color:#fac564;
+}
+.section-poesia img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
 
 /************************************/
@@ -220,6 +264,10 @@ footer i{
 footer i:hover{
   color:orange;
   font-size: 2.1em;
+}
+footer p{
+  margin-bottom: 0;
+  margin-top: 2em;
 }
 .info-developer{
     color:white;
@@ -255,6 +303,13 @@ footer i:hover{
 .nav-link a:hover{
  border-bottom: hidden
 }
+.card {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+.section-poesia img{
+  width: 150px;
+  height: 150px;
 }
 /************************************/
 /*        For Small Devices         */
