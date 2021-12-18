@@ -318,21 +318,24 @@ footer p{
   .subheading {
       font-size: 1.5em;
   }
+  .carousel-caption{
+    right:0%;
+  }
   .carousel-caption h1 {
       font-size: 2em;
   }
   .carousel-caption p{
       font-size: 1em;
   }
-  .poesia{
+  .carousel-poesia{
       margin-left:10em;
       margin-bottom: 0em;
   }
-  .prosa{
+  .carousel-prosa{
       margin-right:10em;
       margin-bottom:0em;
   }
-  .cuento{
+  .carousel-cuento{
       margin-right:10em;
       margin-bottom:0;
   }
@@ -363,15 +366,15 @@ footer p{
   .carousel-caption p{
       font-size: 0.8em;
   }
-  .poesia{
+   .carousel-poesia{
       margin-left:5em;
       margin-bottom: -1em;
   }
-  .prosa{
+  .carousel-prosa{
       margin-right:5em;
       margin-bottom:-1em;
   }
-  .cuento{
+  .carousel-cuento{
       margin-right:5em;
       margin-bottom:-1em;
   }
