@@ -210,11 +210,11 @@ footer{
   margin-top: 4em;
 }
 /* hover effect on Section Images */
-.section img{
+.section-poesia img{
   transition: transform 400ms, filter 400ms;
   filter: sepia(100%);
 }
-.section img:hover{
+.section-poesia img:hover{
   transform:scale(1.05);
   filter: sepia(0%);
 }
@@ -247,8 +247,49 @@ footer{
   border-radius: 50%;
   margin: 0 auto;
 }
+.section-prosa .card{
+  background-color: transparent;
+}
+.section-prosa img{
+  width: 25em;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.section-prosa .card-img-overlay{
+  top: 6em;
+}
+.section-prosa .card-title{
+  text-decoration: none;
+  color: #fac564;
+  transition: 400ms
+}
+.section-prosa .card-text{
+  text-decoration: none;
+  color: lightgrey;
+  transition: 400ms
+}
+.section-prosa a{
+  transition: transform 1000ms, filter 1000ms;
+  filter:brightness(0.5);
+}
+.section-prosa a:hover{
+  transform:scale(1.05);
+  filter: brightness(1.1);
+}
 
+/* .section-prosa{
+  margin-bottom: 3em;
+}
+.section-prosa .card-body{
+  margin-left:-2em
+}
 
+.prosa-card{
+  /* background-color: rgba(0, 0, 0, 0.2);
+  padding-right:0;
+  padding-left:0;
+}
+ */
 /************************************/
 /*              Footer              */
 /************************************/
@@ -310,6 +351,9 @@ footer p{
 .section-poesia img{
   width: 150px;
   height: 150px;
+}
+.section-prosa img{
+  padding: 1em;
 }
 /************************************/
 /*        For Small Devices         */
