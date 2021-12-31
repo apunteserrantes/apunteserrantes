@@ -49,7 +49,7 @@
   			</div>
 			</nav>
 			<!-- Carousel begins -->
-			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-aos-once="true">
+    	<div id="carouselExampleFade" class="carousel slide carousel-fade">
 				<div class="carousel-indicators">
 				    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -58,7 +58,7 @@
 				<div class="carousel-inner">
 			    <div class="carousel-item active">
 			      <img src="img/header_poesia.jpg" class="d-block w-100" alt="Poesía">
-						<div class="carousel-caption d-sd-block carousel-poesia" data-aos="fade-up" data-aos-duration="2000" >
+						<div class="carousel-caption d-sd-block carousel-poesia">
         			<span class="subheading">Apuntes Errantes</span>
         			<h1>Poesía</h1>
 							<p>Andrea Gutiérrez Campos</p>
@@ -99,7 +99,7 @@
 			<!-- Section Title-->
 			<div class="container">
 				<div class="row justify-content-center">
-          <div class="col-md-7 heading-section text-center" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col-md-7 heading-section text-center zoomin">
             <h2>Poesía</h2>
 						<div class="hr-section">
 						  <div class="hr-line"></div>
@@ -119,50 +119,31 @@
 				<div class="container">
 				<div class="row section section-poesia text-center">
 			    <div class="col-md-4">
-						<div data-aos="fade-right"
-     						 data-aos-easing="ease-out-cubic"
-     			 			 data-aos-duration="1500"
-								 data-aos-once="true">
 							<div class="card">
-							  <img src="img-poesia/isla.jpg" alt="Isla">
+							  <img class="rotate" src="img-poesia/isla.jpg" alt="Isla">
 							  <div class="card-body">
 							    <h5 class="card-title"><a href="#">Despiertos</a></h5>
 							    <p class="card-text">Mallorca, España, 2011</p>
-							    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 							  </div>
 							</div>
-						</div>
 			    </div>
 			    <div class="col-md-4">
-						<div data-aos="zoom-in"
-     						 data-aos-easing="ease-out-cubic"
-     			 			 data-aos-duration="1500"
-								 data-aos-once="true">
 							<div class="card">
-								<img src="img-poesia/isla.jpg" alt="Isla">
+								<img class="rotate" src="img-poesia/isla.jpg" alt="Isla">
 								<div class="card-body">
 									<h5 class="card-title">Card title</h5>
 									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 								</div>
 							</div>
-						</div>
 			    </div>
 			    <div class="col-md-4">
-						<div data-aos="fade-left"
-     						 data-aos-easing="ease-out-cubic"
-     			 			 data-aos-duration="1500"
-								 data-aos-once="true">
 							<div class="card">
-								<img src="img-poesia/isla.jpg" alt="Isla">
+								<img class="rotate" src="img-poesia/isla.jpg" alt="Isla">
 								<div class="card-body">
 									<h5 class="card-title">Card title</h5>
 									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 								</div>
 							</div>
-
-			    </div>
 			  </div>
 			</div>
 		</div>
@@ -173,14 +154,14 @@
 	<section class="heading-section">
 		<!-- Section Title-->
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-7 heading-section text-center" data-aos="zoom-in" data-aos-duration="2000">
+		  <div class="row justify-content-center">
+   		  <div class="col-md-7 heading-section text-center zoomin">
 					<h2>Prosa</h2>
 					<div class="hr-section">
 						<div class="hr-line"></div>
 						<div class="hr-icon"><i class="fas fa-spa top-icon"></i></div>
 						<div class="hr-line"></div>
-					</div>
+				  </div>
 					<p>"Escribo, porque si no me muero" - Paco Ignacio Taibo II</p>
 					<div class="hr-section">
 						<div class="hr-line"></div>
@@ -195,22 +176,17 @@
 		<div class="container">
 			<div class="row section section-prosa text-center">
 
-				<div class="col-md-4 card"
-						 data-aos="zoom-in-right"
-						 data-aos-duration="1500"
-						 data-aos-once="true">
+				<div class="col-md-4 card fadeup">
 					<a href="#">
-				  <img src="img/calendario.jpg" class="card-img" alt="...">
+				  <img src="img-prosa/calendario.jpg" class="card-img" alt="...">
 				  <div class="card-img-overlay">
 				    <h5 class="card-title">Miércoles</h5>
 				    <p class="card-text">Mallorca, España, 2011</p>
 				  </div>
 				 </a>
 				</div>
-				<div class="col-md-4 card"
-						 data-aos="zoom-in"
-						 data-aos-duration="1500"
-						 data-aos-once="true">
+
+				<div class="col-md-4 card fadeup">
 					<a href="#">
 				  <img src="img/calendario.jpg" class="card-img" alt="...">
 				  <div class="card-img-overlay">
@@ -219,10 +195,7 @@
 				  </div>
 				</a>
 				</div>
-				<div class="col-md-4 card"
-						 data-aos="zoom-in-left"
-						 data-aos-duration="1500"
-						 data-aos-once="true">
+				<div class="col-md-4 card fadeup">
 					<a href="#">
 				  <img src="img/calendario.jpg" class="card-img" alt="...">
 				  <div class="card-img-overlay">
@@ -233,11 +206,71 @@
 				</div>
 			</div>
 		</div>
-
-
 	</section>
 
+	<!-- Section "Cuento" begins -->
+	<section class="heading-section">
+		<!-- Section Title-->
+		<div class="container">
+		  <div class="row justify-content-center">
+   		  <div class="col-md-7 heading-section text-center zoomin">
+					<h2>Cuento</h2>
+					<div class="hr-section">
+						<div class="hr-line"></div>
+						<div class="hr-icon"><i class="fas fa-spa top-icon"></i></div>
+						<div class="hr-line"></div>
+				  </div>
+					<p>“Me gustaría saber qué pasa realmente en un libro cuando está cerrado.
+						Algo debe pasar, porque cuando lo abro, aparece de pronto una historia eterna”
+						 - Michael Ende </p>
+					<div class="hr-section">
+						<div class="hr-line"></div>
+						<div class="hr-icon"><i class="fas fa-spa bottom-icon"></i></div>
+						<div class="hr-line"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Display Thumbnails "Cuento" -->
+		<div class="container">
+			<div class="row section section-cuento text-center">
 
+				<div class="col-md-4">
+			 		 <div class="card">
+			 			 <img class="zoomin" src="img-cuento/bunker.jpg" alt="Isla">
+			 			 <div class="card-body">
+			 				 <h5 class="card-title"><a href="#">Sin Perdón</a></h5>
+			 				 <p class="card-text">Illinois, USA, 2020</p>
+			 			 </div>
+			 		 </div>
+			  </div>
+
+				<div class="col-md-4">
+					 <div class="card">
+						 <img class="zoomin" src="img-cuento/bunker.jpg" alt="Isla">
+						 <div class="card-body">
+							 <h5 class="card-title"><a href="#">Sin Perdón</a></h5>
+							 <p class="card-text">Illinois, USA, 2020</p>
+						 </div>
+					 </div>
+				</div>
+
+				<div class="col-md-4">
+					 <div class="card">
+						 <img class="zoomin" src="img-cuento/bunker.jpg" alt="Isla">
+						 <div class="card-body">
+							 <h5 class="card-title"><a href="#">Sin Perdón</a></h5>
+							 <p class="card-text">Illinois, USA, 2020</p>
+						 </div>
+					 </div>
+				</div>				
+
+
+
+			</div>
+		</div>
+
+	</section>
 
 		<!-- Footer begins -->
 		<footer class="bg-light text-center text-lg-start">

@@ -17,38 +17,41 @@ footer{
   filter: brightness(70%);
 }
 /***********************************/
-/*         AOS Animations          */
+/*         All Animations          */
 /***********************************/
-.aos-all {
-  width: 1000px;
-  max-width: 98%;
-  margin: 10vh auto 0 auto;
-}
 
-.aos-item {
-  display: inline-block;
-  float: left;
-  width: 33.3333%;
-  height: 300px;
-  padding: 20px;
-}
-
-.aos-item__inner {
+.fadeup {
   position: relative;
-  width: 100%;
-  height: 100%;
-  float: left;
-  background: #1da4e2;
-  line-height: 260px;
-  text-align: center;
-  color: #fff;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.fadeup.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
-@media screen and (max-width: 800px) {
-  .aos-item {
-    width: 50%;
-  }
+.zoomin {
+  position: relative;
+  transform: scale(50%);
+  opacity: 0;
+  transition: 2s all ease;
 }
+.zoomin.active {
+  transform: scale(100%);
+  opacity: 1;
+}
+.rotate {
+  position: relative;
+  transform: rotateZ(30deg);
+  opacity: 0;
+  transition: 3s all ease;
+}
+.rotate.active {
+  transform: rotateZ(0deg);
+  opacity: 1;
+}
+
 
 /***********************************/
 /*          Navigation bar         */
@@ -173,9 +176,9 @@ footer{
     transition: opacity 0s 4s;
   }
 
-/************************************/
-/*        Heading Sections          */
-/************************************/
+/**************************************************/
+/*        Heading Sections on Index page          */
+/**************************************************/
 
 .heading-section h2 {
     color:white;
@@ -209,7 +212,9 @@ footer{
 .section{
   margin-top: 4em;
 }
-/* hover effect on Section Images */
+
+/**** hover effect on Section Images ****/
+
 .section-poesia img{
   transition: transform 400ms, filter 400ms;
   filter: sepia(100%);
@@ -247,11 +252,15 @@ footer{
   border-radius: 50%;
   margin: 0 auto;
 }
+.section-prosa{
+  margin-bottom: 6em;
+}
 .section-prosa .card{
   background-color: transparent;
 }
 .section-prosa img{
-  width: 25em;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   margin: 0 auto;
 }
@@ -270,26 +279,32 @@ footer{
 }
 .section-prosa a{
   transition: transform 1000ms, filter 1000ms;
-  filter:brightness(0.5);
+  filter:grayscale(60%) brightness(50%);
 }
 .section-prosa a:hover{
   transform:scale(1.05);
-  filter: brightness(1.1);
+  filter:grayscale(0%) brightness(100%);
+}
+.section-cuento{
+  margin-bottom:6em;
+}
+ .section-cuento .card{
+  border-left-width: 0;
+  border-right-width: 0;
+  background-color: rgba(0,0,0,0.5);
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.section-cuento img{
+  transition: transform 1000ms, filter 1000ms;
+  filter:grayscale(60%) brightness(50%);
+}
+.section-cuento img:hover{
+  transform:scale(0.95);
+  filter:grayscale(0%) brightness(100%);
 }
 
-/* .section-prosa{
-  margin-bottom: 3em;
-}
-.section-prosa .card-body{
-  margin-left:-2em
-}
 
-.prosa-card{
-  /* background-color: rgba(0, 0, 0, 0.2);
-  padding-right:0;
-  padding-left:0;
-}
- */
 /************************************/
 /*              Footer              */
 /************************************/
@@ -352,8 +367,13 @@ footer p{
   width: 150px;
   height: 150px;
 }
-.section-prosa img{
-  padding: 1em;
+.section-prosa .card{
+  margin-top: 2em;
+}
+.section-cuento .card{
+ margin-left: 1em;
+ margin-right: 1em;
+ margin-bottom: 2em;
 }
 /************************************/
 /*        For Small Devices         */
