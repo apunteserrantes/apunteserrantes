@@ -153,7 +153,9 @@ footer{
     font-size: 1.2em;
     line-height: 1.5;
     font-weight: 300;
-    color: white;
+    color: #b2b2b2;
+    font-family: 'Rock Salt', cursive;
+
 }
 .carousel-poesia{
     margin-left:20em;
@@ -310,6 +312,7 @@ footer{
 /************************************/
 footer h2{
   color:white;
+  font-family: 'Rock Salt', cursive;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -329,11 +332,11 @@ footer p{
     color:white;
 }
 .info-developer a{
-  color:#FFD801;
+  color: #ffc04d;
   text-decoration: none;
 }
 .info-developer a:hover{
-  color:#FFFF33;
+  color:#ffd994;
 }
 /************************************/
 /*        For Medium Devices        */
