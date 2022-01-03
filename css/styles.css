@@ -12,12 +12,6 @@ body{
    font-family:"Josefin Sans", Arial, sans-serif;
    color: #fac564;
  }
- h4:hover{
-  color:#f8a91a;
- }
- h5:hover{
-  color:#f8a91a;
- }
 footer{
   background: url(../img/paper.jpg) no-repeat;
   background-size: cover;
@@ -317,7 +311,7 @@ footer{
 /*************************************/
 .main{
   margin-top: 3em;
-  margin-bottom:3em;
+  margin-bottom:30em;
 }
 .main span > a{
   text-decoration: none;

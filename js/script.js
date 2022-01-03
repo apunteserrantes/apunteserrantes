@@ -1,4 +1,15 @@
 /*--------------------------
+  Shifting Navbar color when scrolling
+---------------------------*/
+$(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll < 300){
+        $('.navbar').css('background', 'rgba(0,0,0,0.5)');
+    } else{
+        $('.navbar').css('background', '#000000');
+    }
+});
+/*--------------------------
   Closing Collapsible Menu when clicking outside
 ---------------------------*/
 $(document).ready(function() {
@@ -8,6 +19,7 @@ $(document).ready(function() {
       // }
    });
 });
+
 
 /*------------------
    Animations
@@ -63,29 +75,13 @@ function rotate() {
   }
 }
 window.addEventListener("scroll", rotate);
-/*--------------------------
-      Calling AOS Animate
----------------------------*/
-// AOS.init({
-//   easing: 'ease-in-out-sine'
-// });
 
 /*--------------------------
       Calling Carousel
 ---------------------------*/
 var myCarousel = document.querySelector('#carouselExampleFade')
 var carousel = new bootstrap.Carousel(carouselExampleFade);
-/*--------------------------
-  Shifting Navbar color when scrolling
----------------------------*/
-$(window).scroll(function(){
-    var scroll = $(window).scrollTop();
-    if(scroll < 30){
-        $('.navbar').css('background', 'rgba(0,0,0,0.5)');
-    } else{
-        $('.navbar').css('background', '#000000');
-    }
-});
+
 /*------------------
   Gets current year in footer:
 --------------------*/
