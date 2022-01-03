@@ -79,8 +79,8 @@ window.addEventListener("scroll", rotate);
 /*--------------------------
       Calling Carousel
 ---------------------------*/
-var myCarousel = document.querySelector('#carouselExampleFade')
-var carousel = new bootstrap.Carousel(carouselExampleFade);
+// var myCarousel = document.querySelector('#carouselExampleFade')
+// var carousel = new bootstrap.Carousel(carouselExampleFade);
 
 /*------------------
   Gets current year in footer:
