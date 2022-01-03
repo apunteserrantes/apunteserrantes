@@ -80,7 +80,7 @@ var carousel = new bootstrap.Carousel(carouselExampleFade);
 ---------------------------*/
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    if(scroll < 300){
+    if(scroll < 30){
         $('.navbar').css('background', 'rgba(0,0,0,0.5)');
     } else{
         $('.navbar').css('background', '#000000');

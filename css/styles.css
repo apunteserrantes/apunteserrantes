@@ -8,8 +8,15 @@ body{
   background-size: auto;
   background-size: cover;
 }
- h1, h2{
+ h1, h2, h3 ,h4, h5{
    font-family:"Josefin Sans", Arial, sans-serif;
+   color: #fac564;
+ }
+ h4:hover{
+  color:#f8a91a;
+ }
+ h5:hover{
+  color:#f8a91a;
  }
 footer{
   background: url(../img/paper.jpg) no-repeat;
@@ -51,7 +58,6 @@ footer{
   transform: rotateZ(0deg);
   opacity: 1;
 }
-
 
 /***********************************/
 /*          Navigation bar         */
@@ -243,6 +249,7 @@ footer{
   background-color: transparent;
   padding-left: 2em;
   padding-right: 2em;
+  border: none;
 }
 .section-poesia .card-title{
   color:#fac564;
@@ -305,7 +312,44 @@ footer{
   transform:scale(0.95);
   filter:grayscale(0%) brightness(100%);
 }
+/*************************************/
+/*        Category Pages             */
+/*************************************/
+.main{
+  margin-top: 3em;
+  margin-bottom:3em;
+}
+.main span > a{
+  text-decoration: none;
+  color: #fac564;
+  transition: 400ms;
 
+}
+.main span > a:hover{
+  color:#f8a91a;
+  font-size: 105%
+}
+.cat-poesia-title div{
+  margin-top:5em;
+  text-align: left;
+}
+.cat-poesia-title p{
+  color:white;
+}
+.cat-poesia-big{
+  padding-top: 12px;
+  /* background-image: url('/img/footer2.jpg'); */
+  background-color: rgba(0,0,0,0.2);
+}
+
+.cat-poesia-small{
+  margin-left:2em;
+  padding-bottom:12px;
+  background-color: rgba(0,0,0,0.1);
+}
+.cat-poesia-small img{
+  padding-top: 12px;
+}
 
 /************************************/
 /*              Footer              */
