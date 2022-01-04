@@ -309,6 +309,47 @@ footer{
 /*************************************/
 /*        Category Pages             */
 /*************************************/
+.head-category {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.head-category .poesia{
+  position: absolute;
+top:10px;
+
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .main{
   margin-top: 3em;
   margin-bottom:3em;
@@ -329,13 +370,6 @@ footer{
 .main span > a:hover{
   color:#f8a91a;
   font-size: 105%
-}
-.cat-poesia-title div{
-  margin-top:5em;
-  text-align: left;
-}
-.cat-poesia-title p{
-  color:white;
 }
 .cat-poesia-small{
   margin-bottom: 2em;
