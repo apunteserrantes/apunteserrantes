@@ -337,22 +337,10 @@ footer{
 .cat-poesia-title p{
   color:white;
 }
-.cat-poesia-big{
-  /* padding-top: 12px; */
-  /* background-color: rgba(0,0,0,0.1); */
+.cat-poesia-small{
+  margin-bottom: 2em;
+  margin-left:3em;
 }
-
-.cat-poesia-small .card{
-  /* margin-left:2em; */
-  /* padding-bottom:12px; */
-  background-color: blue;
-  /* background-color: rgba(0,0,0,0.1); */
-  /* padding-left: 12px; */
-}
-.cat-poesia-small img{
-  /* padding-top: 12px; */
-}
-
 /************************************/
 /*              Footer              */
 /************************************/
@@ -426,6 +414,7 @@ footer p{
 }
 .cat-poesia-small{
   margin-top:4em;
+  margin-left:0;
 }
 }
 /************************************/
@@ -494,5 +483,8 @@ footer p{
   .carousel-cuento{
       margin-right:5em;
       margin-bottom:-1em;
+  }
+  .cat-poesia-small img{
+    max-width: 200px;
   }
 }
