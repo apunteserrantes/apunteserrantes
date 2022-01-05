@@ -315,40 +315,6 @@ footer{
 .head-category .poesia{
   position: absolute;
 }
-.card-image-overlay{
-  top:7em;
-}
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .main{
   margin-top: 3em;
   margin-bottom:3em;
@@ -489,8 +455,10 @@ footer p{
       transition: opacity .6s ease;
       border-radius: 20%;// /* add border-radius */
   }
+ .head-category .poesia{
+   right:10%;
+ }
 }
-
 
 /************************************/
 /*      For Extra Small Devices     */
@@ -519,5 +487,9 @@ footer p{
   }
   .cat-poesia-small img{
     max-width: 200px;
+  }
+  .head-category .poesia{
+    right:10%;
+    top: 15%;
   }
 }
