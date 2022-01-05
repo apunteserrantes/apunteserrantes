@@ -311,13 +311,12 @@ footer{
 /*************************************/
 .head-category {
   position: relative;
-  text-align: center;
-  color: white;
 }
 .head-category .poesia{
   position: absolute;
-top:10px;
-
+}
+.card-image-overlay{
+  top:7em;
 }
 .bottom-left {
   position: absolute;
