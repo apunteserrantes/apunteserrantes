@@ -326,6 +326,9 @@ footer{
 .cat-poesia-small .card-title{
   margin-top:0;
 }
+.cat-poesia-small img{
+  border-radius: 50%;
+}
 .main span > a{
   text-decoration: none;
   color: #fac564;
