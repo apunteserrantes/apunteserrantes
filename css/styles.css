@@ -320,14 +320,25 @@ footer{
   margin-bottom:3em;
 }
 .card-img-top{
-  border-top-right-radius: 0;
-  border-top-left-radius:0;
+  /* border-top-right-radius: 0;
+  border-top-left-radius:0; */
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+
 }
 .cat-poesia-small .card-title{
   margin-top:0;
 }
 .cat-poesia-small img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
+  margin: 0 auto;
+
 }
 .main span > a{
   text-decoration: none;
@@ -460,6 +471,7 @@ footer p{
   }
  .head-category .poesia{
    right:10%;
+   top:10%;
  }
 }
 
@@ -494,5 +506,8 @@ footer p{
   .head-category .poesia{
     right:10%;
     top: 15%;
+  }
+  .head-category h1{
+    margin-bottom: 0;
   }
 }
