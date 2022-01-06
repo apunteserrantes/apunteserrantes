@@ -320,26 +320,14 @@ footer{
   margin-bottom:3em;
 }
 .card-img-top{
-  /* border-top-right-radius: 0;
-  border-top-left-radius:0; */
-  position: fixed;
-  width: 30em;
-  height:30em;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 0 auto;
-
+  border-radius: 0;
 }
+/* .right-panel{
+  background-color: brown;
+  opacity: 50%;
+} */
 .cat-poesia-small .card-title{
   margin-top:0;
-}
-.cat-poesia-small img{
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 0 auto;
-
 }
 .main span > a{
   text-decoration: none;
