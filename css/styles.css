@@ -514,4 +514,7 @@ footer p{
   .head-category h1{
     margin-bottom: 0;
   }
+  .head-category .acerca-head{
+    top: 45%;
+  }
 }
