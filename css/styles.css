@@ -159,15 +159,15 @@ footer{
 }
 .carousel-poesia{
     margin-left:20em;
-    margin-bottom: 3em;
+    margin-bottom:3em;
 }
 .carousel-prosa{
     margin-right:20em;
     margin-bottom:3em;
 }
 .carousel-cuento{
-    margin-left:20%;
-    margin-bottom:10%;
+    margin-left:20em;
+    margin-bottom:3em;
 }
 
 .carousel-item {
@@ -459,7 +459,7 @@ footer p{
       margin-bottom:0em;
   }
   .carousel-cuento{
-      margin-right:10em;
+      margin-left:10em;
       margin-bottom:0;
   }
   .carousel-indicators [data-bs-target] {
@@ -501,7 +501,7 @@ footer p{
       margin-bottom:-1em;
   }
   .carousel-cuento{
-      margin-right:5em;
+      margin-left:5em;
       margin-bottom:-1em;
   }
   .cat-poesia-small img{
