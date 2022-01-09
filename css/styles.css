@@ -13,9 +13,9 @@ body{
    color: #fac564;
  }
 footer{
-  background: url(../img/paper.jpg) no-repeat;
+  background: url(../img/footer-new.jpg)  center no-repeat;
   background-size: cover;
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 /***********************************/
 /*         All Animations          */
