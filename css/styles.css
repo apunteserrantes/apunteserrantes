@@ -13,7 +13,7 @@ body{
    color: #fac564;
  }
 footer{
-  background: url(../img/footer-new.jpg)  center no-repeat;
+  background: url(../img/footer.jpg)  center no-repeat;
   background-size: cover;
   filter: brightness(100%);
 }
