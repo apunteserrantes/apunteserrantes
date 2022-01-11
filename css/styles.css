@@ -144,6 +144,12 @@ footer{
   color: #d4d7e2;
   padding-left: 2em;
 }
+.navbar-light .navbar-nav .nav-link:visited{
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #d4d7e2;
+  padding-left: 2em;
+}
 .navbar-light .navbar-nav .nav-link:hover{
   color:#fac564;
 }
