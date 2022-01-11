@@ -18,7 +18,9 @@ footer{
   filter: brightness(100%);
 }
 
-/* Preloder */
+/***********************************/
+/*            Preloder             */
+/***********************************/
 
  #preloder {
 	position: fixed;
@@ -27,7 +29,6 @@ footer{
 	z-index: 999999;
 	background: #000;
 }
-
 .loader {
 	width: 40px;
 	height: 40px;
@@ -38,14 +39,6 @@ footer{
 	animation: loader 0.8s linear infinite;
 	-webkit-animation: loader 0.8s linear infinite;
 }
-
-/* .loader {
-  position: relative;
-  margin: 50px auto;
-  width: 100px;
-  height: 80px;
-} */
-
 .gear {
   position: absolute;
   z-index: -10;
@@ -53,21 +46,18 @@ footer{
   height: 40px;
   animation: spin 5s infinite;
 }
-
 .two {
   left: 40px;
   width: 80px;
   height: 80px;
   animation: spin-reverse 5s infinite;
 }
-
 .three {
   top: 45px;
   left: -10px;
   width: 60px;
   height: 60px;
 }
-
 @keyframes spin {
   50% {
     transform: rotate(360deg);
@@ -594,5 +584,9 @@ footer p{
   }
   .head-category .acerca-head{
     top: 45%;
+  }
+  .loader {
+  	top: 30%;
+  	left: 37%;
   }
 }
