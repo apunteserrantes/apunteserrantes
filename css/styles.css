@@ -415,7 +415,7 @@ footer{
 }
 
 /************************************/
-/*    Acerca de and inner pages     */
+/*    Acerca de and entry pages     */
 /************************************/
 .entry{
   color:lightgrey;
@@ -431,6 +431,12 @@ footer{
 .entry p{
   padding-bottom: 3em;
   padding-left: 1em;
+}
+.centered h1{
+  padding-left: 0;
+}
+.centered p{
+  padding-left:0;
 }
 /************************************/
 /*              Footer              */
