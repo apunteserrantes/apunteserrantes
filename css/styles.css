@@ -426,11 +426,9 @@ footer{
 .entry h1{
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 0.5em;
 }
 .entry p{
   padding-bottom: 3em;
-  padding-left: 1em;
 }
 .centered h1{
   padding-left: 0;
@@ -438,6 +436,7 @@ footer{
 .centered p{
   padding-left:0;
 }
+
 /************************************/
 /*              Footer              */
 /************************************/
