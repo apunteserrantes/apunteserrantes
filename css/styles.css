@@ -406,6 +406,16 @@ footer{
 .head-category {
   position: relative;
 }
+.head-category a{
+  text-decoration: none;
+  color:white;
+  transition: 500ms;
+}
+.head-category a:hover{
+  color: white;
+  font-size: 105%;
+  transition: 500ms;
+}
 .head-category .poesia{
   position: absolute;
 }
