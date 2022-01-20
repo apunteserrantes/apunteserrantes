@@ -246,7 +246,15 @@ footer{
     margin-left:20em;
     margin-bottom:3em;
 }
-
+.carousel-inner a{
+  text-decoration: none;
+  color:white;
+  transition:500ms;
+}
+.carousel-inner a:hover{
+  font-size:105%;
+  transition: 500ms;
+}
 .carousel-item {
     transition: transform 4s ease-in-out;
   }
