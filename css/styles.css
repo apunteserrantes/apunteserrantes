@@ -8,9 +8,12 @@ body{
   background-size: auto;
   background-size: cover;
 }
- h1, h2, h3 ,h4, h5{
+ h1, h2, h3 ,h4, h5, h6{
    font-family:"Josefin Sans", Arial, sans-serif;
    color: #fac564;
+ }
+ h6{
+   padding-top:1em;
  }
 footer{
   background: url(../img/footer.jpg)  center no-repeat;
@@ -268,6 +271,15 @@ footer{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+.heading-section a{
+  text-decoration: none;
+  color:white;
+  transition:500ms;
+}
+.heading-section a:hover{
+  font-size:105%;
+  transition: 500ms;
+}
 .hr-section{
   display: flex;
 }
@@ -292,12 +304,12 @@ footer{
 /**** hover effect on Section Images ****/
 
 .section-poesia img{
-  transition: transform 400ms, filter 400ms;
+  transition: transform 1000ms, filter 400ms;
   filter: sepia(100%);
 }
 .section-poesia img:hover{
   transform:scale(1.05);
-  filter: sepia(0%);
+  filter: sepia(1%);
 }
 .card-title{
   margin-top: 1.2em;
@@ -356,11 +368,11 @@ footer{
 }
 .section-prosa a{
   transition: transform 1000ms, filter 1000ms;
-  filter:grayscale(60%) brightness(50%);
+  filter:sepia(100%) brightness(50%);
 }
 .section-prosa a:hover{
   transform:scale(1.05);
-  filter:grayscale(0%) brightness(100%);
+  filter:sepia(1%) brightness(100%);
 }
 .section-cuento{
   margin-bottom:6em;
@@ -398,6 +410,9 @@ footer{
 }
 .cat-poesia-small .card-title{
   margin-top:0;
+}
+.panel-prosa{
+  padding-left: 0;
 }
 .main span > a{
   text-decoration: none;
