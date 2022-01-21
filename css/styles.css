@@ -440,7 +440,11 @@ footer{
 }
 .main span > a:hover{
   color:#f8a91a;
-  font-size: 105%
+  font-size: 105%;
+  transition: 400ms;
+}
+.main a{
+    color: #fac564;
 }
 .cat-poesia-small{
   margin-bottom: 2em;
@@ -469,7 +473,20 @@ footer{
 .centered p{
   padding-left:0;
 }
-
+.return-to{
+  font-size: 1.4em;
+}
+.return-to i{
+  color:#fac564;
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+.return-to >.text-end a{
+  margin-right:3em;
+}
+.return-to >.text-start a{
+  margin-left:3em;
+}
 /************************************/
 /*              Footer              */
 /************************************/
@@ -632,5 +649,14 @@ footer p{
   .loader {
   	top: 30%;
   	left: 37%;
+  }
+  .return-to{
+    font-size: 1.2em;
+  }
+  .return-to >.text-end a{
+    margin-right:1em;
+  }
+  .return-to >.text-start a{
+    margin-left:1em;
   }
 }
