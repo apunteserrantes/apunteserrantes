@@ -426,6 +426,22 @@ footer{
 .card-img-top{
   border-radius: 0;
 }
+.cat-poesia-big img{
+  filter: grayscale(20%);
+}
+.cat-poesia-big img:hover{
+  transform: scale(1.04);
+  filter: sepia(1%);
+}
+.cat-poesia-small img{
+  filter: grayscale(20%);
+  transition: 2s;
+}
+.cat-poesia-small img:hover{
+  transform: scale(1.1);
+  filter: sepia(1%);
+  transition:2s;
+}
 .cat-poesia-small .card-title{
   margin-top:0;
 }
