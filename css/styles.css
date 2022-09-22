@@ -361,26 +361,32 @@ footer{
   object-fit: cover;
   margin: 0 auto;
 }
+
 .section-prosa .card-img-overlay{
   top: 6em;
 }
 .section-prosa .card-title{
   text-decoration: none;
   color: #fac564;
-  transition: 400ms
+  transition: 2000ms
 }
 .section-prosa .card-text{
   text-decoration: none;
   color: lightgrey;
-  transition: 400ms
+  transition: 2000ms
 }
 .section-prosa a{
-  transition: transform 1000ms, filter 1000ms;
+  transition: transform 2000ms, filter 2000ms;
   filter:sepia(100%) brightness(50%);
+
 }
 .section-prosa a:hover{
+  transition: transform 2000ms, filter 2000ms;
   transform:scale(1.05);
   filter:sepia(1%) brightness(100%);
+}
+.section-prosa h5:hover{
+  transition: 2s;
 }
 .section-cuento{
   margin-bottom:6em;
@@ -461,6 +467,15 @@ footer{
 }
 .main a{
     color: #fac564;
+}
+.cat-prosa-img a > img{
+  filter:grayscale(20%);
+  transition:2s
+}
+.cat-prosa-img a > img:hover{
+  transform: scale(1.1);
+  filter: sepia(1%);
+  transition:2s
 }
 .cat-poesia-small{
   margin-bottom: 2em;
