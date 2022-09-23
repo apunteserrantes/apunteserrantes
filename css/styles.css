@@ -361,13 +361,14 @@ footer{
   object-fit: cover;
   margin: 0 auto;
 }
-
 .section-prosa .card-img-overlay{
-  top: 6em;
+  /* top: 6em; */
 }
 .section-prosa .card-title{
   text-decoration: none;
+  text-shadow: 5px 5px 10px #000;
   color: #fac564;
+  filter: brightness(200%);
   transition: 2000ms
 }
 .section-prosa .card-text{
@@ -377,7 +378,7 @@ footer{
 }
 .section-prosa a{
   transition: transform 2000ms, filter 2000ms;
-  filter:sepia(100%) brightness(50%);
+  filter:sepia(90%) brightness(80%);
 
 }
 .section-prosa a:hover{
