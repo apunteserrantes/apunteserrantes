@@ -670,6 +670,9 @@ footer p{
   .cat-poesia-small img{
     max-width: 200px;
   }
+  .cat-poesia-small .card-body{
+    padding-left: 0px;
+  }
   .head-category .poesia{
     right:10%;
     top: 15%;
