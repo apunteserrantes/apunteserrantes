@@ -368,7 +368,7 @@ footer{
 }
 .section-prosa .card-title{
   text-decoration: none;
-  text-shadow: 5px 5px 10px #000;
+  text-shadow: 5px 3px 12px #000;
   color: #fac564;
   filter: brightness(200%);
   transition: 2000ms
@@ -380,7 +380,7 @@ footer{
 }
 .section-prosa a{
   transition: transform 2000ms, filter 2000ms;
-  filter:sepia(90%) brightness(80%);
+  filter:sepia(50%) brightness(90%);
 
 }
 .section-prosa a:hover{
